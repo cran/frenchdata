@@ -1,7 +1,7 @@
 Package: frenchdata
 Title: Download Data Sets from Kenneth's French Finance Data Library
         Site
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: 
     person(given = "Nelson",
            family = "Areal",
@@ -18,13 +18,12 @@ Depends: R (>= 3.3)
 Encoding: UTF-8
 RoxygenNote: 7.1.1
 Imports: utils, magrittr, tibble, dplyr, tidyr (>= 1.0.0), cli, httr,
-        rvest (>= 0.99.0.9000), stringr, purrr, assertthat, rlang, fs,
-        readr
+        rvest (>= 1.0.0), stringr, purrr, assertthat, rlang, fs, readr
 Suggests: markdown, rmarkdown, knitr, lubridate, ggplot2
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-05-16 11:14:10 UTC; nareal
+Packaged: 2021-09-08 20:48:25 UTC; nareal
 Author: Nelson Areal [aut, cre] (<https://orcid.org/0000-0002-1157-0178>)
 Maintainer: Nelson Areal <nareal@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-05-18 07:00:04 UTC
+Date/Publication: 2021-09-10 12:10:11 UTC
